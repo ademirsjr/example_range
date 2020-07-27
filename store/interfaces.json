@@ -1,0 +1,17 @@
+{
+  "search-bar.enhanced": {
+    "component": "SearchBar"
+  },
+  "filter-navigator.v3.custom": {
+    "component": "FilterNavigatorCustom"
+  },
+  "order-by.v2.custom": {
+    "component": "OrderByFlexible"
+  },
+  "tags": {
+    "component": "Tags"
+  },
+  "search-header": {
+    "component": "SearchHeader"
+  }
+}

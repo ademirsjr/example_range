@@ -1,0 +1,15 @@
+{
+  "definitions": {
+    "SearchBar": {
+      "type": "object",
+      "description": "admin/editor.search-bar.description",
+      "properties": {
+        "content": {
+          "title": "admin/editor.search-bar.content.title",
+          "description": "admin/editor.search-bar.content.description",
+          "$ref": "app:vtex.native-types#/definitions/text"
+        }
+      }
+    }
+  }
+}

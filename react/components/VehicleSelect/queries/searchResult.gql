@@ -1,0 +1,49 @@
+query searchVehicleQuery($marca: String, $modelo: String, $versao: String) {
+  searchVehicle(marca: $marca, modelo: $modelo, versao: $versao)
+    @context(provider: "localizaseminovos.graphql-biggy") {
+    query
+    total
+    marca {
+      map
+      value
+      selected
+      attributeValues {
+        count
+        active
+        proxyUrl
+        key
+        label
+        from
+        to
+      }
+      modelo {
+        map
+        value
+        selected
+        attributeValues {
+          count
+          active
+          proxyUrl
+          key
+          label
+          from
+          to
+        }
+        versao {
+          map
+          value
+          selected
+          attributeValues {
+            count
+            active
+            proxyUrl
+            key
+            label
+            from
+            to
+          }
+        }
+      }
+    }
+  }
+}

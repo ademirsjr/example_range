@@ -1,0 +1,70 @@
+{
+  "name": "search-component",
+  "vendor": "localizaseminovos",
+  "version": "0.0.6",
+  "title": "Localiza Biggy Search Components",
+  "description": "Localiza Biggy search components.",
+  "scripts": {
+    "prereleasy": "bash pre.sh"
+  },
+  "builders": {
+    "store": "0.x",
+    "react": "3.x",
+    "messages": "1.x"
+  },
+  "dependencies": {
+    "vtex.native-types": "0.x",
+    "vtex.shipping-estimate-translator": "2.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.store-resources": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.store-icons": "0.x",
+    "vtex.modal": "0.x",
+    "vtex.react-portal": "0.x",
+    "vtex.address-form": "4.x",
+    "vtex.product-context": "0.x",
+    "vtex.store-components": "3.x",
+    "vtex.search-result": "3.x",
+    "vtex.store": "2.x",
+    "vtex.search": "1.x",
+    "vtex.device-detector": "0.x",
+    "vtex.css-handles": "0.x",
+    "vtex.format-currency": "0.x",
+    "vtex.search-page-context": "0.x",
+    "vtex.slider": "0.x",
+    "localizaseminovos.graphql-biggy": "0.x"
+  },
+  "policies": [
+    {
+      "name": "vbase-read-write"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "search.biggylabs.com.br",
+        "path": "/*"
+      }
+    }
+  ],
+  "settingsSchema": {
+    "title": "Biggy Search",
+    "type": "object",
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "title": "API Key",
+        "description": "Your API Key"
+      },
+      "store": {
+        "type": "string",
+        "title": "Store",
+        "description": "Enter your Store's slug"
+      }
+    }
+  },
+  "mustUpdateAt": "2020-07-01",
+  "registries": [
+    "smartcheckout"
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

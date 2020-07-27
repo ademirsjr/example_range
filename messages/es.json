@@ -1,0 +1,23 @@
+{
+  "store/search-result.filter-button.clear": "Limpiar",
+  "store/search-result.filter-action.title": "Filtrar",
+  "store/search-result.filter-button.search": "Buscar",
+  "store/ordenation.sort-by": "Ordenar Por",
+  "store/ordenation.relevance": "Relevância",
+  "store/ordenation.sales": "Mais Vendidos",
+  "store/ordenation.menorkm": "Menor KM",
+  "store/ordenation.anorecente": "Ano mais recente",
+  "store/ordenation.menordistancia": "Menor Distância",
+  "store/ordenation.release.date": "Mais recentes",
+  "store/ordenation.discount": "Descontos",
+  "store/ordenation.price.descending": "Maior preço",
+  "store/ordenation.price.ascending": "Menor preço",
+  "store/ordenation.name.ascending": "De A a Z",
+  "store/ordenation.name.descending": "De Z a A",
+  "store/search-result.filter-breadcrumbs.primary": "Filtros",
+  "store/search-result.filter-bar.title": "Busca Avançada",
+  "store/search-result.select-vehicle.title": "Veículo",
+  "store/search-result.select-vehicle.confirm": "Confirmar",
+  "store/search-result.select-vehicle.add": "+ incluir mais um carro",
+  "store/search.filter.title.price-ranges": "Precio"
+}
